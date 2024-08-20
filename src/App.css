@@ -1,0 +1,31 @@
+.dark-theme .ant-drawer-body {
+  background-color: #001529;
+  color: white;
+}
+
+.light-theme .ant-drawer-body {
+  background-color: white;
+  color: black;
+}
+
+.toggle {
+  display: none; /* Hide the toggle button by default */
+}
+
+.mobile-menu-button {
+  display: none; /* Hide the mobile menu button by default */
+}
+
+/* Display the toggle button on larger screens */
+@media (min-width: 768px) {
+  .toggle {
+    display: inline-block;
+  }
+}
+
+/* Display the mobile menu button on smaller screens */
+@media (max-width: 767px) {
+  .mobile-menu-button {
+    display: inline-block;
+  }
+}
